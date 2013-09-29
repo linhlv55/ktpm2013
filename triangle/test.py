@@ -1,6 +1,6 @@
 ﻿import unittest
 from math import sqrt
-from check import checkTriangle
+from triangle import checkTriangle
 class MyTest(unittest.TestCase):
     def test_1_1(self):
         self.assertEqual(checkTriangle(-1,2,4),-1)
